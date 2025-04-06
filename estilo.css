@@ -4,12 +4,15 @@
     border-radius: 4px;
     display: flex;
     align-items: center;
+    justify-content: center; 
 }
 
 .base {
     margin-bottom: 15px;
     background-color: #d0d3d4;
     border-radius: 4px;
+    width: 100%;
+    display: flex;
 }
 
 .box1 {
@@ -33,26 +36,79 @@ h1 {
     margin: auto;
 }
 
-/* Insira o código abaixo */
 
 .container1 {
-    
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: flex-start;
 }
 
 .container2 {
-    
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
 }
 
 .container3 {
-   
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 
 .container4 {
-    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
+
 .container5 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
     
 }
-.container-6 {
-    
+
+.container6 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+
+/*Container B*/
+.container-exercicioB{
+    display: flex;
+    flex-direction: column; 
+}
+.container-exercicioB .box1 {
+    order: 4;
+}
+.container-exercicioB .box2 {
+    order: 3;
+}
+.container-exercicioB .box3 {
+    order: 2;
+}
+.container-exercicioB .box4 {
+    order: 1;
+}
+
+
+/*Container desafio*/
+.container-desafio{
+    display: flex;
+    flex-direction: row;
+}
+.container-desafio .box1{
+    order: 4;
+}
+.container-desafio .box2{
+    order: 3;
+}
+.container-desafio .box3{
+    order: 2;
+}
+.container-desafio .box4{
+    order: 1;
 }
